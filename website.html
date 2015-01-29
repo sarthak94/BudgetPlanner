@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.0.js'></script>
+  
+  
+  
+  
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  
+
+  
+  <style type='text/css'>
+    #money {
+    display: none;
+}
+  </style>
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+
+function display(){
+
+ var x = $("#input").val();
+    if(x==10){
+        $("#money").css("display", "block");
+        $("#money").html("3 lattes");
+}
+}
+
+function showDiv() {
+  document.getElementById('welcomeDiv').style.display = "block";
+}
+//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="form-inline">
+                <div class="form-group">
+                    
+                    <label for="input">Type in yo declining foo'!:</label>
+                    <input type="number" class="form-control" id="input" placeholder="$$$">
+                    <button class="btn btn-primary" onclick="display()">submit</button>
+                    <input type="radio" name="coffee" value="latte" unchecked>Male
+                        
+                    <div class="well" id="money"></div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+
+  
+</body>
+
+
+</html>
+
+
