@@ -5,6 +5,7 @@
   <title> - jsFiddle demo</title>
   
   <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.0.js'></script>
+  <script src="Backend.js"></script>
   
   
   
@@ -14,31 +15,11 @@
   
 
   
-  <style type='text/css'>
-    #money {
-    display: none;
-}
-  </style>
-  
+ 
+
+ 
 
 
-<script type='text/javascript'>//<![CDATA[ 
-
-function display(){
-
- var x = $("#input").val();
-    if(x==10){
-        $("#money").css("display", "block");
-        $("#money").html("3 lattes");
-}
-}
-
-function showDiv() {
-  document.getElementById('welcomeDiv').style.display = "block";
-}
-//]]>  
-
-</script>
 
 
 </head>
@@ -51,7 +32,14 @@ function showDiv() {
                     
                     <label for="input">Type in yo declining foo'!:</label>
                     <input type="number" class="form-control" id="input" placeholder="$$$">
-                    <button class="btn btn-primary" onclick="display()">submit</button>
+                    <script >
+                    var x = $("#input").val();
+                    var numbers = [1,2,3,4,5,6,7,8];
+
+                    var p = [];
+                    var store = [];
+                    </script>
+                    <button class="btn btn-primary" onclick="isumupR(numbers, x, partial)">submit</button>
                     <input type="radio" name="coffee" value="latte" unchecked>Male
                         
                     <div class="well" id="money"></div>
