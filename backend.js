@@ -1,5 +1,35 @@
 
 
+<<<<<<< Updated upstream
+var SixDollarItems = [ "2 Slices of Cheese pizza + Regular beverage","2 Slices of Pepperoni Pizza + Regular beverage","Spicy chicken sandwich","Grilled chicken sandwich","Hamburger","Veggie burger","Bowl (1 Side and 1 Entree)","Classic chees quesadillas","Cheese plus 33 quesadillas(Up to 3 ingredients)","Large smoothie"];
+
+var OneDollarItems = ["Cheesy bread sticks", "Milk (Upstate farms)", "Cappucino Mocha (Upstate farms)", "Chocalate milk"];
+
+var TwoDollarItems = ["Chocalate eclair bars"," Strawberry bars", "Vanilla sandwiches","Cinnamon iced breadsticks", "Soda","Kickstart can", "Lipton ice tea","Gadorade","Fountain drink"];
+
+var ThreeDollarItems = ["Cookies and cream sandwiches"," Chocalate chip cookie sandwiches","Strawberry sundae cups","Cookies N' Cream cups","Pizza slice (one topping)","Pizza slice (only cheese)","Greek frozen yogurt","Moose tracks cones (Hersheys)","Incredible cones (Hersheys)","Fries","AMP energy drink", "Rockstar energy drink"];
+
+var FourDollarItems = ["Roletto", "Grilled cheese", "Small smoothie"];
+
+var FiveDollarItems = ["Calzone", "Strombolli", "Italian sausage", "Combo Meal (Hot dog, French fries and Fountain drink)", "Regular smoothie"];
+
+var SevenDollarItems = ["Chicken tender sub","Pesto pita pizza", " Plate( Any side and 2 Entrees)", " Southwest salad", "Spicy Asian salad", "Caesar salad", "seven g"];
+
+var EightDollarItems = ["Salad from the Salad bar", "Grilled chicken pita","Mel burger","Philly cheese steak "];
+
+var NineDollarItems = ["Plate (Any side and 3 Entrees)"]
+
+ 
+
+ var displayList = [];
+
+var numbers = [1,2,3,4,5,6,7,8];
+var target = 3;
+// console.log(target);
+var p = [];
+var store = [];
+=======
+>>>>>>> Stashed changes
 
 
  // function RecPermute(var sofar, var rest) {
